@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
-import { StoreContext } from "@/store";
-import { formatTimeToMinSec } from "@/utils";
+import { StoreContext } from "../../store";
+import { formatTimeToMinSec } from "../../utils";
 import { observer } from "mobx-react";
 import { MdAdd } from "react-icons/md";
 

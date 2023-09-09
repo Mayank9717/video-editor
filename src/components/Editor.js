@@ -2,9 +2,9 @@
 
 import { fabric } from "fabric";
 import React, { useEffect } from "react";
-import { StoreContext } from "@/store";
+import { StoreContext } from "../store";
 import { observer } from "mobx-react";
-import "@/utils/fabric-utils";
+import "../utils/fabric-utils";
 import { Resources } from "./Resources";
 import { ElementsPanel } from "./panels/ElementsPanel";
 import { Menu } from "./Menu";

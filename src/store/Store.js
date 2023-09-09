@@ -1,6 +1,6 @@
 import { makeAutoObservable } from "mobx";
 import { fabric } from "fabric";
-import { getUid, isHtmlVideoElement } from "@/utils";
+import { getUid, isHtmlVideoElement } from "../utils";
 import anime from "animejs";
 
 export class Store {

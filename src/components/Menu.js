@@ -1,8 +1,8 @@
 import React from "react";
-import { StoreContext } from "@/store";
+import { StoreContext } from "../store";
 import { observer } from "mobx-react";
 import { MdVideoLibrary } from "react-icons/md";
-import { Store } from "@/store/Store";
+import { Store } from "../store/Store";
 
 export const Menu = observer(() => {
   const store = React.useContext(StoreContext);

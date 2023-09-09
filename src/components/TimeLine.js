@@ -1,6 +1,6 @@
 import React from "react";
 import { SeekPlayer } from "./timeline-related/SeekPlayer";
-import { StoreContext } from "@/store";
+import { StoreContext } from "../store";
 import { observer } from "mobx-react";
 import { TimeFrameView } from "./timeline-related/TimeFrameView";
 

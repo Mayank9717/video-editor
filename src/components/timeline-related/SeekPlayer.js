@@ -1,7 +1,7 @@
 "use client";
 
-import { StoreContext } from "@/store";
-import { formatTimeToMinSecMili } from "@/utils";
+import { StoreContext } from "../../store";
+import { formatTimeToMinSecMili } from "../../utils";
 import { observer } from "mobx-react-lite";
 import { useContext } from "react";
 import { MdPlayArrow, MdPause } from "react-icons/md";
