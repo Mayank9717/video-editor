@@ -1,7 +1,7 @@
 import { makeAutoObservable } from "mobx";
 import { fabric } from "fabric";
 import { getUid, isHtmlVideoElement } from "../utils";
-import anime from "animejs";
+// import anime from "animejs/lib/anime.es.js"; // Use the ES module version
 
 export class Store {
   constructor() {
@@ -14,7 +14,7 @@ export class Store {
     this.currentKeyFrame = 0;
     this.selectedElement = null;
     this.fps = 60;
-    this.animationTimeLine = anime.timeline();
+    // this.animationTimeLine = anime.timeline();
     this.selectedMenuOption = "Video";
     makeAutoObservable(this);
   }
@@ -160,7 +160,7 @@ export class Store {
 
   updateTimeTo(newTime) {
     this.setCurrentTimeInMs(newTime);
-    this.animationTimeLine.seek(newTime);
+    // this.animationTimeLine.seek(newTime);
     if (this.canvas) {
       this.canvas.backgroundColor = this.backgroundColor;
     }
