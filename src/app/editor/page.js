@@ -9,6 +9,6 @@ function EditorPage() {
   );
 }
 
-EditorPage.displayName = "EditorPage"; // Updated the displayName property
+EditorPage.displayName = "EditorPage"; // Updated the displayName property here
 
 export default EditorPage;
